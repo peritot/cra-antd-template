@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { Typography, Divider } from 'antd';
+import './App.less';
+
+const { Title, Paragraph, Link } = Typography;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="App">
+      <Typography>
+        <Title>Introduction</Title>
+        <Paragraph>A Create React App Template With Ant Design.</Paragraph>
+        <Divider />
+        <Title level={4}>Dependencies</Title>
+        <Paragraph>
+          <ul>
+            <li>
+              <Link href="https://github.com/ant-design/ant-design" target="_blank">
+                Ant Design
+              </Link>
+            </li>
+          </ul>
+        </Paragraph>
+        <Divider />
+        <Title level={4}>Develop Dependencies</Title>
+        <Paragraph>
+          <ul>
+            <li>
+              <Link href="https://github.com/gsoft-inc/craco" target="_blank">
+                Craco
+              </Link>
+            </li>
+          </ul>
+        </Paragraph>
+      </Typography>
+    </section>
   );
 }
 

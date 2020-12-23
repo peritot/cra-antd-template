@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Introduction
+
+A Create React App Template With Ant Design.
+
+---
+
+## Dependencies
+
+- [Ant Design](https://github.com/ant-design/ant-design)
+
+## Develop Dependencies
+
+- [Craco](https://github.com/gsoft-inc/craco)
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
