@@ -4,7 +4,7 @@ import './index.less';
 
 const { Title, Paragraph, Link } = Typography;
 
-function Home() {
+function App() {
   return (
     <section className="app-home">
       <Typography>
@@ -32,6 +32,21 @@ function Home() {
             <li>
               <Link href="https://github.com/facebook/prop-types" target="_blank">
                 PropTypes
+              </Link>
+            </li>
+            <li>
+              <Link href="https://github.com/ReactTraining/react-router" target="_blank">
+                React Router
+              </Link>
+            </li>
+            <li>
+              <Link href="https://github.com/reduxjs/react-redux" target="_blank">
+                React Redux
+              </Link>
+            </li>
+            <li>
+              <Link href="https://github.com/reduxjs/redux-toolkit" target="_blank">
+                Redux Toolkit
               </Link>
             </li>
           </ul>
@@ -67,4 +82,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default App;

@@ -1,5 +1,6 @@
-import Root from '@/views/Root';
-import Home from '@/views/Home';
+import Root from '@/views/root';
+import Home from '@/views/home';
+import ReduxToolkit from '@/views/reduxToolkit';
 
 const routes = [
   {
@@ -10,6 +11,11 @@ const routes = [
         path: ['/home', '/'],
         exact: true,
         component: Home,
+      },
+      {
+        path: ['/redux', '/'],
+        exact: true,
+        component: ReduxToolkit,
       },
     ],
   },

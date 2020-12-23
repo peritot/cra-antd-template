@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { renderRoutes } from 'react-router-config';
 import './index.less';
 
-function Root({ route }) {
+function App({ route }) {
   const { title, routes } = route;
 
   document.title = title;
@@ -11,8 +11,8 @@ function Root({ route }) {
   return <section className="app-root">{renderRoutes(routes)}</section>;
 }
 
-Root.propTypes = {
+App.propTypes = {
   route: PropTypes.shape({ title: PropTypes.string, routes: PropTypes.arrayOf(PropTypes.object) }).isRequired,
 };
 
-export default Root;
+export default App;

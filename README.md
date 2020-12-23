@@ -11,6 +11,8 @@ A Create React App Template With Ant Design.
 - [Moment](https://github.com/moment/moment)
 - [PropTypes](https://github.com/facebook/prop-types)
 - [React Router](https://github.com/ReactTraining/react-router)
+- [React Redux](https://github.com/reduxjs/react-redux)
+- [Redux Toolkit](https://github.com/reduxjs/redux-toolkit)
 
 ## Develop Dependencies
 
