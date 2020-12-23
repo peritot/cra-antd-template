@@ -7,10 +7,16 @@ A Create React App Template With Ant Design.
 ## Dependencies
 
 - [Ant Design](https://github.com/ant-design/ant-design)
+- [Craco](https://github.com/gsoft-inc/craco)
+- [Moment](https://github.com/moment/moment)
+- [PropTypes](https://github.com/facebook/prop-types)
 
 ## Develop Dependencies
 
-- [Craco](https://github.com/gsoft-inc/craco)
+- [ESLint](https://github.com/eslint/eslint)
+- [Prettier](https://github.com/prettier/prettier)
+- [Husky](https://github.com/typicode/husky)
+- [Lint Staged](https://github.com/okonet/lint-staged)
 
 ---
 
