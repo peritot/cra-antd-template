@@ -1,3 +1,4 @@
+import React from 'react';
 import { Typography, Divider } from 'antd';
 import './App.less';
 
