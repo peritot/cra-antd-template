@@ -1,12 +1,12 @@
 import React from 'react';
 import { Typography, Divider } from 'antd';
-import './App.less';
+import './index.less';
 
 const { Title, Paragraph, Link } = Typography;
 
-function App() {
+function Home() {
   return (
-    <section className="App">
+    <section className="app-home">
       <Typography>
         <Title>Introduction</Title>
         <Paragraph>A Create React App Template With Ant Design.</Paragraph>
@@ -67,4 +67,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

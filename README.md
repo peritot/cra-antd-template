@@ -10,6 +10,7 @@ A Create React App Template With Ant Design.
 - [Craco](https://github.com/gsoft-inc/craco)
 - [Moment](https://github.com/moment/moment)
 - [PropTypes](https://github.com/facebook/prop-types)
+- [React Router](https://github.com/ReactTraining/react-router)
 
 ## Develop Dependencies
 
