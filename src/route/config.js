@@ -13,7 +13,7 @@ const routes = [
         component: Home,
       },
       {
-        path: ['/redux', '/'],
+        path: '/redux',
         exact: true,
         component: ReduxToolkit,
       },

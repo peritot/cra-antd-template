@@ -20,18 +20,23 @@ function App() {
               </Link>
             </li>
             <li>
+              <Link href="https://github.com/axios/axios" target="_blank">
+                axios
+              </Link>
+            </li>
+            <li>
               <Link href="https://github.com/gsoft-inc/craco" target="_blank">
-                Craco
+                craco
               </Link>
             </li>
             <li>
               <Link href="https://github.com/moment/moment" target="_blank">
-                Moment
+                Moment.js
               </Link>
             </li>
             <li>
               <Link href="https://github.com/facebook/prop-types" target="_blank">
-                PropTypes
+                prop-types
               </Link>
             </li>
             <li>
@@ -67,12 +72,12 @@ function App() {
             </li>
             <li>
               <Link href="https://github.com/typicode/husky" target="_blank">
-                Husky
+                husky
               </Link>
             </li>
             <li>
               <Link href="https://github.com/okonet/lint-staged" target="_blank">
-                Lint Staged
+                lint-staged
               </Link>
             </li>
           </ul>

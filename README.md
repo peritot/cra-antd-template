@@ -7,9 +7,10 @@ A Create React App Template With Ant Design.
 ## Dependencies
 
 - [Ant Design](https://github.com/ant-design/ant-design)
-- [Craco](https://github.com/gsoft-inc/craco)
-- [Moment](https://github.com/moment/moment)
-- [PropTypes](https://github.com/facebook/prop-types)
+- [axios](https://github.com/axios/axios)
+- [craco](https://github.com/gsoft-inc/craco)
+- [Moment.js](https://github.com/moment/moment)
+- [prop-types](https://github.com/facebook/prop-types)
 - [React Router](https://github.com/ReactTraining/react-router)
 - [React Redux](https://github.com/reduxjs/react-redux)
 - [Redux Toolkit](https://github.com/reduxjs/redux-toolkit)
@@ -18,8 +19,8 @@ A Create React App Template With Ant Design.
 
 - [ESLint](https://github.com/eslint/eslint)
 - [Prettier](https://github.com/prettier/prettier)
-- [Husky](https://github.com/typicode/husky)
-- [Lint Staged](https://github.com/okonet/lint-staged)
+- [husky](https://github.com/typicode/husky)
+- [lint-staged](https://github.com/okonet/lint-staged)
 
 ---
 

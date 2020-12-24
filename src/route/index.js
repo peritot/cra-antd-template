@@ -4,7 +4,7 @@ import { renderRoutes } from 'react-router-config';
 import routes from './config';
 
 const Route = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASE}>
     <Switch>{renderRoutes(routes)}</Switch>
   </BrowserRouter>
 );
