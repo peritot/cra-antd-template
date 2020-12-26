@@ -10,6 +10,7 @@ function App() {
       <Typography>
         <Title>Introduction</Title>
         <Paragraph>A Create React App Template With Ant Design.</Paragraph>
+        <Paragraph><%= description %>.</Paragraph>
         <Divider />
         <Title level={4}>Dependencies</Title>
         <Paragraph>

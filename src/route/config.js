@@ -4,7 +4,7 @@ import ReduxToolkit from '@/views/reduxToolkit';
 
 const routes = [
   {
-    title: 'Cra Antd Template',
+    title: '<%= name %>',
     component: Root,
     routes: [
       {

@@ -2,6 +2,8 @@
 
 A Create React App Template With Ant Design.
 
+> <%= description %>
+
 ---
 
 ## Dependencies

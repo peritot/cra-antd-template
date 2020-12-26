@@ -1,6 +1,8 @@
 {
-  "name": "cra-antd-template",
-  "version": "0.1.0",
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "author": "<%= author %> <<%= email %>>",
   "private": true,
   "homepage": ".",
   "scripts": {
@@ -65,7 +67,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": ""
     }
   },
   "lint-staged": {
